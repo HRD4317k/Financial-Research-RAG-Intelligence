@@ -1,0 +1,31 @@
+# Environment
+.env
+*.env
+
+# Downloaded SEC filings (can be large; regenerate with src/ingest.py)
+data/filings/
+
+# Built retriever index (regenerate with python src/retriever.py --build)
+data/retriever_index/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Evaluation outputs (regenerate with src/evaluate.py)
+evals/results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

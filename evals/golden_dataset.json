@@ -1,0 +1,137 @@
+[
+  {
+    "id": "aapl_001",
+    "ticker": "AAPL",
+    "question": "What were Apple's primary risk factors related to supply chain concentration in their 2023 10-K?",
+    "ground_truth": "Apple cited significant concentration risk in its supply chain, with the vast majority of hardware products manufactured in Asia-Pacific — primarily China, Taiwan, and India. The company acknowledged risks from geopolitical tensions, trade restrictions, and the concentration of key component suppliers. Apple specifically noted that disruptions in manufacturing could materially impact product availability and financial results.",
+    "source_filing": "AAPL-10K-2023",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "aapl_002",
+    "ticker": "AAPL",
+    "question": "How did Apple's Services segment perform relative to Products in fiscal year 2023?",
+    "ground_truth": "Apple's Services segment generated approximately $85.2 billion in revenue in fiscal 2023, growing around 9% year-over-year, while total Products revenue declined slightly due to softness in iPhone, Mac, and iPad sales. Services gross margin (~70%) significantly exceeded Products gross margin (~37%), making Services an increasingly important driver of Apple's overall profitability. The company highlighted growth in App Store, Apple Music, Apple TV+, iCloud, and licensing revenue.",
+    "source_filing": "AAPL-10K-2023",
+    "section": "Management Discussion and Analysis",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "aapl_003",
+    "ticker": "AAPL",
+    "question": "What competitive risks did Apple identify in its 2023 10-K filing?",
+    "ground_truth": "Apple identified intense competition across all its product and service categories. Key competitive risks included: rapidly evolving technology landscape, competitors with greater resources in certain markets, price competition especially in the smartphone market (notably from Samsung and Chinese OEMs), competition in the streaming and digital content market, and increasing regulatory scrutiny of App Store practices in the EU and US that could benefit competitors. Apple also noted the risk of losing developer mindshare if alternative app distribution becomes mandated.",
+    "source_filing": "AAPL-10K-2023",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "aapl_004",
+    "ticker": "AAPL",
+    "question": "Describe Apple's capital return program as reported in their 2023 annual filing.",
+    "ground_truth": "Apple's capital return program in fiscal 2023 included approximately $89 billion returned to shareholders — roughly $15 billion in dividends and $74 billion in share repurchases. The company's board approved a $90 billion share repurchase authorization. Apple has been one of the largest executors of share buybacks globally, having returned over $600 billion to shareholders since the program's inception in 2012. The company maintained its dividend with a quarterly payout of $0.24 per share.",
+    "source_filing": "AAPL-10K-2023",
+    "section": "Management Discussion and Analysis",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "aapl_005",
+    "ticker": "AAPL",
+    "question": "What did Apple's 2023 10-K reveal about revenue exposure to China and related geopolitical risks?",
+    "ground_truth": "Apple's Greater China segment (China, Hong Kong, Taiwan) generated approximately $72 billion in fiscal 2023, representing roughly 19% of total revenue. The company identified China as both a critical manufacturing hub and a major sales market, creating compounded geopolitical exposure. Risks cited included trade tensions between the US and China, potential sanctions, export controls on semiconductor technology, and the possibility of Chinese regulatory actions against Apple's App Store or Services business. Apple also noted increased competition from Huawei following the latter's return to high-end smartphones.",
+    "source_filing": "AAPL-10K-2023",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "msft_001",
+    "ticker": "MSFT",
+    "question": "How did Microsoft's Intelligent Cloud segment (Azure) perform in fiscal year 2023?",
+    "ground_truth": "Microsoft's Intelligent Cloud segment, which includes Azure, generated $87.9 billion in revenue in fiscal 2023, up 19% year-over-year. Azure and other cloud services grew 27% for the full year. The segment became Microsoft's largest revenue segment, surpassing Productivity and Business Processes. Azure growth was driven by enterprise AI services adoption, hybrid cloud deployments, and continued migration of workloads from on-premise infrastructure. Operating income for the segment grew substantially, with margins expanding.",
+    "source_filing": "MSFT-10K-2023",
+    "section": "Management Discussion and Analysis",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "msft_002",
+    "ticker": "MSFT",
+    "question": "What AI and Copilot strategy did Microsoft outline in its 2023 annual report?",
+    "ground_truth": "Microsoft described an aggressive AI integration strategy centered on its partnership with OpenAI. The company announced Copilot features embedded across Microsoft 365, GitHub, Azure, and Dynamics 365. Microsoft 365 Copilot, priced at $30/user/month for enterprise, uses GPT-4 to provide AI assistance across Word, Excel, PowerPoint, Outlook, and Teams. Azure OpenAI Service was highlighted as a major growth driver for the cloud segment. Microsoft also noted its $10+ billion investment commitment to OpenAI as a strategic asset differentiating its offerings from Google and Amazon.",
+    "source_filing": "MSFT-10K-2023",
+    "section": "Management Discussion and Analysis",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "msft_003",
+    "ticker": "MSFT",
+    "question": "What were the key risks Microsoft identified related to competition in cloud and productivity markets?",
+    "ground_truth": "Microsoft identified competition risks from Google (Workspace, GCP), Amazon (AWS), Salesforce, and emerging AI-native competitors. Key concerns included: AWS maintaining market share leadership in cloud infrastructure, Google's aggressive Workspace pricing undercutting Microsoft 365, the risk of open-source AI models commoditising Azure OpenAI Service revenue, and antitrust scrutiny of Microsoft's bundling practices in Europe. The company also flagged cybersecurity risks given its central role in enterprise IT infrastructure.",
+    "source_filing": "MSFT-10K-2023",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "msft_004",
+    "ticker": "MSFT",
+    "question": "How did the Activision Blizzard acquisition affect Microsoft's financial disclosures and risk profile?",
+    "ground_truth": "Microsoft's $68.7 billion acquisition of Activision Blizzard was the largest deal in gaming history and significantly impacted Microsoft's risk disclosures. The 2023 10-K discussed ongoing regulatory hurdles including challenges from the FTC (US) and CMA (UK), creating material uncertainty around deal closure. Microsoft disclosed the acquisition would add gaming content including Call of Duty, World of Warcraft, and Candy Crush, as well as Activision's mobile gaming platform. The deal added meaningful goodwill and intangible assets to Microsoft's balance sheet upon eventual closure and required integration risk disclosures.",
+    "source_filing": "MSFT-10K-2023",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "msft_005",
+    "ticker": "MSFT",
+    "question": "Compare Microsoft's three business segments — Productivity and Business Processes, Intelligent Cloud, and More Personal Computing — in terms of revenue and growth in fiscal 2023.",
+    "ground_truth": "In fiscal 2023: Intelligent Cloud was the largest segment at $87.9B (grew 19%), driven by Azure's 27% growth. Productivity and Business Processes generated $69.3B (grew 11%), driven by Office 365 commercial subscriptions and LinkedIn revenue. More Personal Computing generated $54.7B (declined 9%), pressured by PC market weakness and a Windows OEM revenue decline of 25%. The revenue mix shift toward cloud and AI services improved Microsoft's overall margin profile, with consolidated operating income growing to $88.5B.",
+    "source_filing": "MSFT-10K-2023",
+    "section": "Management Discussion and Analysis",
+    "question_type": "comparative"
+  },
+  {
+    "id": "nvda_001",
+    "ticker": "NVDA",
+    "question": "What drove Nvidia's data center revenue growth in fiscal year 2024 and what was the scale of that growth?",
+    "ground_truth": "Nvidia's Data Center segment generated $47.5 billion in revenue in fiscal 2024, a staggering increase of 217% year-over-year. This was driven almost entirely by explosive demand for H100 and A100 GPUs for AI training and inference workloads. Major cloud hyperscalers (Microsoft Azure, Google Cloud, AWS, Oracle) and AI companies like OpenAI, Anthropic, and Meta were the primary customers. Nvidia cited CUDA ecosystem lock-in, the NVLink interconnect, and the DGX/HGX system architecture as key competitive moats driving the revenue surge.",
+    "source_filing": "NVDA-10K-2024",
+    "section": "Management Discussion and Analysis",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "nvda_002",
+    "ticker": "NVDA",
+    "question": "How did US export controls on AI chips to China impact Nvidia's business and what risks did Nvidia disclose?",
+    "ground_truth": "US export control regulations significantly impacted Nvidia's China business. The October 2022 and October 2023 BIS rules restricted exports of A100, H100, and subsequently A800/H800 chips to China and certain other countries. Nvidia disclosed that China (including Hong Kong) represented approximately 20% of its data center revenue before controls were applied. The company was forced to develop China-specific products (H20, L20) within regulatory limits. Nvidia identified export control as a top risk factor, noting potential revenue loss and the risk of further tightening regulations affecting its ability to address one of the world's largest AI markets.",
+    "source_filing": "NVDA-10K-2024",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "nvda_003",
+    "ticker": "NVDA",
+    "question": "What supply chain and manufacturing concentration risks did Nvidia disclose in its most recent annual filing?",
+    "ground_truth": "Nvidia disclosed that it relies primarily on TSMC (Taiwan Semiconductor Manufacturing Company) for wafer fabrication, with a secondary relationship with Samsung. This creates significant concentration risk given Taiwan's geopolitical position. Nvidia also relies on SK Hynix and Samsung for HBM (High Bandwidth Memory) used in H100/H200 GPUs. The company cited risks from TSMC capacity constraints, yield issues at advanced nodes (3nm, 4nm), potential disruptions from Taiwan Strait geopolitical tensions, and the long lead times required to qualify alternative suppliers. CoWoS (Chip-on-Wafer-on-Substrate) packaging from TSMC was also identified as a bottleneck.",
+    "source_filing": "NVDA-10K-2024",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  },
+  {
+    "id": "nvda_004",
+    "ticker": "NVDA",
+    "question": "How did Nvidia's Gaming segment perform compared to Data Center in fiscal 2024?",
+    "ground_truth": "Nvidia's Gaming segment generated $10.4 billion in fiscal 2024, recovering 15% year-over-year after fiscal 2023's sharp decline due to inventory correction and post-pandemic PC demand normalisation. However, Gaming was completely overshadowed by Data Center ($47.5B), making Data Center approximately 4.5x the size of Gaming by revenue. The RTX 4000 series (Ada Lovelace architecture) drove gaming revenue recovery. Nvidia noted that its gaming GPU technology increasingly overlaps with AI/ML workloads, with gamers using DLSS and AI-assisted rendering features.",
+    "source_filing": "NVDA-10K-2024",
+    "section": "Management Discussion and Analysis",
+    "question_type": "comparative"
+  },
+  {
+    "id": "nvda_005",
+    "ticker": "NVDA",
+    "question": "What competitive risks from AMD, Intel, and custom AI chips did Nvidia identify in its risk factors?",
+    "ground_truth": "Nvidia identified competition from multiple fronts: AMD's MI300X GPU targeting AI training/inference at lower price points; Intel's Gaudi accelerator series for AI workloads; and custom ASICs developed by hyperscalers including Google TPUs (v4/v5), Amazon Trainium/Inferentia, Microsoft Maia, and Meta MTIA. Nvidia cited the risk that if hyperscalers successfully transition significant workloads to in-house ASICs, it could materially reduce demand for H100/H200. The company argued that CUDA's 15-year ecosystem advantage, cuDNN, and the breadth of supported AI frameworks represent durable moats, but acknowledged these competitive threats as material risks.",
+    "source_filing": "NVDA-10K-2024",
+    "section": "Risk Factors",
+    "question_type": "factual_retrieval"
+  }
+]
